@@ -36,7 +36,7 @@ defmodule Postgrammer.Endpoint do
   plug Plug.Session,
     store: :cookie,
     key: "_postgrammer_key",
-    signing_salt: "Cbg4mSGF"
+    signing_salt: "3SfwQloz"
 
   plug Postgrammer.Router
 end

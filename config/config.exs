@@ -12,7 +12,7 @@ config :postgrammer,
 # Configures the endpoint
 config :postgrammer, Postgrammer.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "vVUKJ3Hz/rIV1IFVFRbGsS1wy+TwMhZFy7wHyxJr3V8pNo3fNLR1dBq3X9Mjt/0d",
+  secret_key_base: "HsG7rV+i/k9QQzgJH5rgiCI9VMzDQ+YpfdBftMAymqOO/XLeFyQEJP/Z2Ae/mAgI",
   render_errors: [view: Postgrammer.ErrorView, accepts: ~w(html json)],
   pubsub: [name: Postgrammer.PubSub,
            adapter: Phoenix.PubSub.PG2]
